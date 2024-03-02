@@ -479,28 +479,28 @@
             </li>
           </ul>
         </div>
-
-        <form class="footer-form">
-          <div class="footer-form-wrapper">
-            <label class="footer-form-label" for="footer-form-email"
-              >Subscribe</label
-            >
-            <input
-              class="footer-form-input-email"
-              type="email"
-              name="footer-form-email"
-              id="footer-form-email"
-              placeholder="E-mail"
-              required
-            />
-          </div>
-          <button class="footer-form-btn" type="submit">
-            Subscribe
-            <svg class="footer-form-btn-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-subscribe"></use>
-            </svg>
-          </button>
-        </form>
+        <!-- Form footer -->
+        <div class="footer-form-wrapper">
+          <p class="footer-form-text">Subscribe</p>
+          <form class="footer-form">
+            <label class="footer-form-label" for="footer-form-email">
+              <input
+                class="footer-form-input-email"
+                type="email"
+                name="footer-form-email"
+                id="footer-form-email"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+            <button class="footer-form-btn" type="submit">
+              Subscribe
+              <svg class="footer-form-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-subscribe"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -574,7 +574,8 @@
               </svg>
             </div>
           </div>
-          <div class="review-form-field-wrapper">
+
+          <div class="review-form-field-wrapp">
             <label for="user-comment" class="review-form-field-label"
               >Comment</label
             >
@@ -591,12 +592,12 @@
             <input
               type="checkbox"
               class="review-form-privacy-checkbox visually-hidden"
-              name="privacy-policy"
+              name="user-privacy"
               id="privacy-policy"
               value="true"
               required
             />
-            <label for="privacy-policy" class="review-form-checkbox-label">
+            <label for="user-privacy" class="review-form-checkbox-label">
               <span class="checkbox">
                 <svg class="check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use>
